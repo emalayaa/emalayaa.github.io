@@ -2,60 +2,43 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Emily Garcia | Embedded & Software Portfolio</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 40px;
-      background-color: #f9f9f9;
-      color: #222;
-    }
-    h1 {
-      color: #004080;
-    }
-    .project {
-      margin-bottom: 30px;
-      border-left: 4px solid #004080;
-      padding-left: 14px;
-      background: #fff;
-      padding: 14px;
-      box-shadow: 0 0 6px rgba(0,0,0,0.05);
-    }
-    a {
-      color: #0066cc;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    footer {
-      margin-top: 60px;
-      font-size: 0.9em;
-      color: #555;
-    }
-  </style>
+  <title>Emily Garcia | Embedded & Software Projects</title>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Emily Garcia | Embedded Systems & Software Engineering</h1>
-  <p>Welcome! I'm a Computer Engineering student at the University of Florida focused on embedded systems, hardware-software integration, and real-time systems.</p>
+  <header>
+    <h1>Emily Garcia</h1>
+    <p class="tagline">Embedded Systems • Software Engineering • Hardware Integration</p>
+  </header>
 
-  <div class="project">
-    <h2>🔌 <a href="https://github.com/emalayaa/ebi-hardware-expansion">Lab 4: EBI Hardware Expansion</a></h2>
-    <p>Memory-mapped external I/O with SRAM, latches, flip-flops, LEDs, and DIP switches using AVR Assembly and ATxmega128A1U.</p>
-  </div>
+  <main>
+    <section class="intro">
+      <p>Hi! I'm a Computer Engineering student at the University of Florida passionate about embedded systems, hardware-software integration, and real-time systems. Below are some of the projects I've worked on:</p>
+    </section>
 
-  <div class="project">
-    <h2>📡 <a href="https://github.com/emalayaa/Lab-6-Synchronous-Serial-Communication-SPI-with-ATxmega128A1U-and-LSM6DS3TR-IMU">Lab 6: SPI Communication with IMU</a></h2>
-    <p>Interfaced with an LSM6DS3TR IMU via SPI, streamed real-time 3D acceleration over UART, verified using logic analyzer.</p>
-  </div>
+    <section class="projects">
 
-  <div class="project">
-    <h2>🌞 <a href="https://github.com/emalayaa/Analog-to-Digital-Converter">Lab 7: ADC with SPI Streaming</a></h2>
-    <p>Configured analog-to-digital conversion and interrupt-driven SPI to plot sensor readings from a photoresistor.</p>
-  </div>
+      <div class="card">
+        <h2><a href="https://github.com/emalayaa/ebi-hardware-expansion" target="_blank">Lab 4: EBI Hardware Expansion</a></h2>
+        <p>Memory-mapped external I/O with SRAM, latches, flip-flops, LEDs, and DIP switches using AVR Assembly and ATxmega128A1U.</p>
+      </div>
+
+      <div class="card">
+        <h2><a href="https://github.com/emalayaa/Lab-6-Synchronous-Serial-Communication-SPI-with-ATxmega128A1U-and-LSM6DS3TR-IMU" target="_blank">Lab 6: SPI Communication with IMU</a></h2>
+        <p>Interfaced with an LSM6DS3TR IMU via SPI, streamed real-time 3D acceleration over UART, verified using logic analyzer.</p>
+      </div>
+
+      <div class="card">
+        <h2><a href="https://github.com/emalayaa/Analog-to-Digital-Converter" target="_blank">Lab 7: ADC with UART Streaming</a></h2>
+        <p>Configured analog-to-digital conversion and interrupt-driven SPI to plot sensor readings from a photoresistor.</p>
+      </div>
+
+    </section>
+  </main>
 
   <footer>
-    <p>Last updated: July 2025 • <a href="mailto:emilygarcia@ufl.edu">Contact Me</a></p>
+    <p>© 2025 Emily Garcia</p>
   </footer>
 </body>
 </html>
