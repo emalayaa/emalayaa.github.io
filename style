@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #CEABC0;
+  color: #2B3527;
+  line-height: 1.6;
+  padding: 0 20px;
+}
+
+header {
+  text-align: center;
+  padding: 50px 20px 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5em;
+  color: #2B3527;
+}
+
+.tagline {
+  font-size: 1.1em;
+  color: #566F5E;
+}
+
+.intro {
+  max-width: 700px;
+  margin: 0 auto 40px;
+  font-size: 1.05em;
+  color: #2B3527;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  max-width: 800px;
+  margin: 0 auto 60px;
+}
+
+.card {
+  background-color: #C2C4C1;
+  padding: 20px 25px;
+  border-left: 6px solid #8A7264;
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h2 {
+  margin-top: 0;
+  color: #2B3527;
+}
+
+.card a {
+  color: #2B3527;
+  text-decoration: none;
+}
+
+.card a:hover {
+  color: #566F5E;
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  font-size: 0.9em;
+  color: #2B3527;
+}
