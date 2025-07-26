@@ -93,7 +93,7 @@ body::after {
 .bottom-left {
   bottom: 0;
   left: 0;
-  transform: translate(-10%, 10%);  
+  transform: translate(-5%, 12%);  
 }
 
 .top-right {
